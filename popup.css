@@ -1,0 +1,323 @@
+:root {
+    /*assorted*/
+    --textback : rgb(247, 202, 190); 
+    --back : rgb(189, 137, 105); 
+    --back2 : rgb(236, 200, 155); 
+    --text : rgb(8, 70, 23); 
+    --butt: rgb(124, 54, 54); 
+}
+
+
+html{
+    width: 430px; 
+    height:470px;
+}
+
+body{
+    background-color: var(--back); 
+    position:absolute; 
+    font-size: 12px; 
+    margin:20px; 
+    overflow:hidden;
+}
+
+/*handy dandy notebook*/
+#notebook {
+    margin-top:-18px;
+    margin-left:-18px;
+    opacity:1; 
+    width:400px; 
+    height:470px; 
+    position: fixed; 
+    /* color:rgb(58, 10, 56);  */
+    background-color: var(-back); 
+}
+
+#titles{
+    display:flex; 
+    font-size: 12px; 
+    color: var(--text); 
+    width:400px; 
+}
+
+.status {
+    margin-bottom: -20px; 
+    margin-left:15px; 
+    size: 13px; 
+    overflow:auto;
+    color: var(--text); 
+    cursor: pointer; 
+}
+
+#title{
+    flex:2; 
+    margin-top:-50px;
+    margin-left:10px;  
+    font-size: 14px; 
+    cursor: pointer; 
+    opacity:0.6; 
+    width: 270px;; 
+    height: 20px; 
+    padding: 5px; 
+    background-color:var(--back2); 
+    color: var(--text); 
+    cursor:pointer; 
+    justify-content: space-evenly;
+    margin: 15px; 
+}
+
+#title:hover{
+    opacity:1; 
+}
+
+#title0{
+    flex:2;   
+    font-size: 14px; 
+    cursor: pointer; 
+    opacity:0.6; 
+    width: 270px;; 
+    height: 20px; 
+    padding: 5px; 
+    background-color:var(--back2); 
+    color: var(--text); 
+    cursor:pointer; 
+    justify-content: space-evenly;
+    margin: 15px; 
+}
+
+#title0:hover{
+    opacity:1; 
+}
+
+#title1{
+    flex:2;   
+    font-size: 14px; 
+    cursor: pointer; 
+    opacity:0.6; 
+    width: 270px;; 
+    height: 20px; 
+    padding: 5px; 
+    background-color:var(--back2); 
+    color: var(--text); 
+    cursor:pointer; 
+    justify-content: space-evenly;
+    margin: 15px; 
+}
+
+#title1:hover{
+    opacity:1; 
+}
+
+#title2{
+    flex:2; 
+    font-size: 14px; 
+    cursor: pointer; 
+    opacity:0.6; 
+    width: 270px;; 
+    height: 20px; 
+    padding: 5px; 
+    background-color:var(--back2); 
+    color: var(--text); 
+    cursor:pointer; 
+    justify-content: space-evenly;
+    margin: 15px; 
+}
+
+#title2:hover{
+    opacity:1; 
+}
+
+
+#title3{
+    flex:2; 
+    font-size: 14px; 
+    cursor: pointer; 
+    opacity:0.6; 
+    width: 270px;; 
+    height: 20px; 
+    padding: 5px; 
+    background-color:var(--back2); 
+    color: var(--text); 
+    cursor:pointer; 
+    justify-content: space-evenly;
+    margin: 15px; 
+}
+
+#title3:hover{
+    opacity:1; 
+}
+
+
+#title4{
+    flex:2; 
+    font-size: 14px; 
+    cursor: pointer; 
+    opacity:0.6; 
+    width: 270px;; 
+    height: 20px; 
+    padding: 5px; 
+    background-color:var(--back2); 
+    color: var(--text); 
+    cursor:pointer; 
+    justify-content: space-evenly;
+    margin: 15px; 
+}
+
+#title4:hover{
+    opacity:1; 
+}
+
+
+#title5{
+    flex:2; 
+    font-size: 14px; 
+    cursor: pointer; 
+    opacity:0.6; 
+    width: 270px;; 
+    height: 20px; 
+    padding: 5px; 
+    background-color:var(--back2); 
+    color: var(--text); 
+    cursor:pointer; 
+    justify-content: space-evenly;
+    margin: 15px; 
+}
+
+#title5:hover{
+    opacity:1; 
+}
+
+
+#title6{
+    flex:2; 
+    font-size: 14px; 
+    cursor: pointer; 
+    opacity:0.6; 
+    width: 270px;; 
+    height: 20px; 
+    padding: 5px; 
+    background-color:var(--back2); 
+    color: var(--text); 
+    cursor:pointer; 
+    justify-content: space-evenly;
+    margin: 15px; 
+}
+
+#title6:hover{
+    opacity:1; 
+}
+
+
+#title7{
+    flex:2; 
+    font-size: 14px; 
+    cursor: pointer; 
+    opacity:0.6; 
+    width: 270px;; 
+    height: 20px; 
+    padding: 5px; 
+    background-color:var(--back2); 
+    color: var(--text); 
+    cursor:pointer; 
+    justify-content: space-evenly;
+    margin: 15px; 
+}
+
+#title7:hover{
+    opacity:1; 
+}
+
+#text{
+    font-size:12px; 
+    cursor: pointer; 
+}
+
+#backing{
+    transform: scale(0.8);
+    margin-top: -390px;
+    margin-left:290px; 
+    opacity:0.8;
+    background:transparent; 
+}
+
+
+
+/*a single note*/
+#note {
+    width:400px; 
+    height:470px; 
+}
+
+#notetitle textarea {
+    opacity:0.6; 
+    outline: none; 
+    position:absolute; 
+    border: none; 
+    width:270px; 
+    height: 16px; 
+    resize: none; 
+    background-color: var(--textback); 
+    overflow:hidden;
+}
+
+#notetitle textarea:focus{
+    opacity:1; 
+    overflow:hidden;
+}
+#notetext textarea{
+    margin-top:25px; 
+    opacity: 0.6; 
+    outline: none; 
+    position:absolute; 
+    border:none; 
+    width: 270px;; 
+    height: 400px; 
+    resize: none; 
+    background-color: var(--textback); 
+    overflow:hidden;
+}
+
+#notetext textarea:focus{
+    opacity: 1; 
+    overflow:hidden;
+}
+
+#backing2{
+    transform: scale(0.8);
+    margin-top: 60px;
+    margin-left:270px; 
+    opacity:0.75; 
+    background:transparent; 
+}
+
+#edit {
+    margin-top: -40px;
+    margin-left: 60px;  
+    transform: scale(0.9);
+}
+
+#botbutton{
+    margin-left:280px; 
+    margin-top:400px; 
+    position:absolute; 
+}
+#botbutton button{
+    color: var(--butt); 
+    cursor:pointer;  
+    background:transparent;
+    border: 2px solid var(--butt); 
+    opacity:0.4; 
+    border-radius:4px; 
+    padding:4px; 
+    transition-duration:0.6s;
+}
+
+#botbutton button:hover{
+    color: var(--butt2); 
+    background: var(--butt);  
+    opacity:1; 
+    transition-duration:0.4s;
+    border-radius:4px; 
+}
+
+
